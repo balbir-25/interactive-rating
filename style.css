@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Overpass";
+  background-color: hsl(216, 12%, 8%);
+}
+
+.main-rate,
+.thank {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.star-icon {
+  border-radius: 100%;
+  background-color: hsl(216, 12%, 8%);
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.star-pic {
+  padding: 6px;
+}
+
+.info {
+  margin: 20px;
+  width: 90%;
+}
+
+.ino-h1 {
+  width: 244px;
+  height: 41px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.info-para {
+  width: 331px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #959eac;
+}
+
+.price {
+  margin: 20px;
+  width: 100%;
+}
+
+.rate-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: -70px;
+}
+
+.rate-li {
+  list-style: none;
+}
+
+.li-btn {
+  width: 40px;
+  height: 39px;
+  background: #363a41;
+  border-radius: 100%;
+  color: hsl(0, 0%, 100%);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  justify-content: center;
+  border: none;
+}
+
+.li-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.li-btn:focus{
+    background-color: hsl(216, 12%, 54%);
+}
+
+.rate-btn{
+    width: 90%;
+    color: #ffffff;
+    background: #FB7413;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.rate-btn:hover{
+    background-color: white;
+    color: #FB7413;
+}
+
+.hidden {
+  display: none;
+}
+
+.thank{
+    text-align: center;
+}
+
+.phone-icon{
+    margin-top: 20px;
+}
+
+
+.js-para{
+    background: hsl(216, 12%, 54%);
+    border-radius: 15px;
+    padding: 5px;
+    color: #FB7413;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    width: 180px;
+    margin: 20px auto;
+}
+
+.thank-h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.thank-para{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    width:326px;
+    color: #959EAC;
+}
+
+.foot {
+  
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  margin-top: 80px;
+}
+
+.foot a {
+  text-decoration: none;
+  color: #FB7413;
+}
+
+@media screen and (max-width: 450px){
+  .main-rate, .thank{
+    max-width: 100vw;
+    padding: 20px;
+  }
+
+  .info-para, .thank-para, .js-para, .rate-li, .phone-icon{
+    width: 90%;
+  }
+}
